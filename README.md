@@ -2,7 +2,7 @@
 
 ## Motivation and applications
 
-** Road Salt and the LovoTech network**. 
+**Road Salt and the LovoTech network**. 
 
 - Mark Green and Road Salt
 - Lovotech network
@@ -62,6 +62,10 @@ Fracking http://www.fondriest.com/news/tracking-fracking.htm
 
 ## DIY Sensor Designs
 
+**Ben Gamari.**
+
+Ref: RIffle design, which includes conductivity sensor.
+
 **Coqui.**  
 
 Design.
@@ -93,25 +97,33 @@ http://www.ullasmann.eu/Doc/Salt_Concentration_Meter.pdf
 
 ## Research Notes on Public Lab
 
+All research notes tagged 'conductivity': 
 - https://publiclab.org/tag/conductivity
+
+'Coqui' approach:
+- https://publiclab.org/wiki/coqui
 - https://publiclab.org/wiki/555-conductivity-meter
-- https://publiclab.org/notes/markwh/10-29-2014/calibrating-arduino-based-conductivity-meter
-- https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter
 - https://publiclab.org/notes/donblair/07-11-2014/simple-555-conductivity-meter
 - https://publiclab.org/wiki/coqui-a-simple-water-conductivity-sensor
-- https://publiclab.org/notes/donblair/09-30-2014/making-a-diy-conductivity-probe-from-a-water-bottle-and-metal-screws
-- https://publiclab.org/notes/JSummers/11-21-2013/conductivity-meter
-- https://publiclab.org/wiki/riffle
 - https://publiclab.org/notes/donblair/01-07-2016/conductivity-sensing-open-questions
-- https://publiclab.org/notes/donblair/06-18-2014/using-an-audio-jack-to-assess-conductivity
 - https://publiclab.org/notes/rebeccah/08-29-2016/riffle-device-water-conductivity-sensor
-- https://publiclab.org/notes/rebeccah/08-29-2016/riffle-device-water-conductivity-sensor
-- https://publiclab.org/notes/pdhixenbaugh/08-20-2016/planning-for-a-new-riffle-conductivity-circuit
-- https://publiclab.org/wiki/coqui
-- http://mediashift.org/2012/04/water-hackathon-aims-to-understand-brooklyns-water-pollution096/
+- https://publiclab.org/notes/donblair/09-30-2014/making-a-diy-conductivity-probe-from-a-water-bottle-and-metal-screws
 
+Jack Summers, Ben Hickman:
+- https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter
+- https://publiclab.org/notes/JSummers/11-21-2013/conductivity-meter
+
+Patrick Hixenbaugh:
+- https://publiclab.org/notes/pdhixenbaugh/08-20-2016/planning-for-a-new-riffle-conductivity-circuit
+
+General:
+- https://publiclab.org/notes/markwh/10-29-2014/calibrating-arduino-based-conductivity-meter
+- https://publiclab.org/notes/donblair/06-18-2014/using-an-audio-jack-to-assess-conductivity
 
 ## References
+
+- http://mediashift.org/2012/04/water-hackathon-aims-to-understand-brooklyns-water-pollution096/
+
 
 ## Guides to conductivity
 
