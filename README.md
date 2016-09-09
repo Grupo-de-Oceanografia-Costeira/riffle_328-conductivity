@@ -53,6 +53,7 @@ In order to avoid polarizing the solution being tested, and to minimize the effe
 - low voltage, significantly below the electrolysis threshold for water (1.1 Volts).
 
 <img src="pics/conductivity_ac.png" width=400>
+
 _Source: http://www.sensorex.com/technical-education/_
 
 **Probe design.**
