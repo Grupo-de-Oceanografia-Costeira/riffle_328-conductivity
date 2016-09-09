@@ -2,62 +2,88 @@
 
 ## Background
 
-**Road Salt and the LovoTech network**. 
+Conductivity is an important water quality parameter, and is widely used to assess environmental conditions in hydrology, oceanography, and pollution monitoring. This repository describes some efforts towards developing DIY circuits for assessing water conductivity. 
 
-- Mark Green and Road Salt
-- [LoVoTECS](http://jupiter.plymouth.edu/~mbgreen/Mark_B._Green/LoVoTECS.html)
+Some of the applications that have inspired this work include:
 
+**Road Salt and the LovoTech network**. Mark Green of Plymouth State initially proposed the idea of an open source design for a conductivity data logger.  His [LoVoTECHS](http://jupiter.plymouth.edu/~mbgreen/Mark_B._Green/LoVoTECS.html) network in New Hampshire already consisted of many volunteer stewards of conductivity monitors throughout a watershed, with the idea of assessing the impact and dynamics of road salt within the local ecosystem. 
 <img src="pics/lovotechs.png" width=300>
 
+More background reading on road salt:
 - http://des.nh.gov/organization/divisions/water/wmb/was/salt-reduction-initiative/impacts.htm
 - http://www.boston.com/news/local-news/2015/01/16/road-salt-where-does-it-come-from-where-does-it-go
 - http://news.nationalgeographic.com/news/2014/02/140212-road-salt-shortages-melting-ice-snow-science/
 - http://www.wired.com/2015/03/road-salt-polluting-rivers/
 - http://science.howstuffworks.com/nature/climate-weather/atmospheric/road-salt.htm
 
-**Salt water intrustion.**
+**Salt water intrustion.**  [Salt water intrustion](https://en.wikipedia.org/wiki/Saltwater_intrusion) is increasingly an issue world-wide, as groundwater extraction and sea level rise result in relatively saline waters contaminating fresh water supplies.  Assessing and documenting the extent of this problem helps to inform solutions and predict trends.
 
-https://en.wikipedia.org/wiki/Saltwater_intrusion
-Groundwater extraction
-Sea level rise
+**Agriculture.**  Irrigation, and other uses of water in agriculture, results in significant increases in the salinity of water, usually rendering it unsafe for drinking.  More background:
 
+- http://www.fao.org/docrep/t0667e/t0667e05.htm
 
-**Agriculture.**
+**Hydraulic Fracturing and pollution.**  The materials used in hydraulic fracturing or 'fracking' usually have very high specific conductivity; measuring conductivity of groundwater and surface water in the areas near a fracking operation may provide an indication of the extent of contamination of local water sources by fracking fluid.  More info: 
 
-http://www.fao.org/docrep/t0667e/t0667e05.htm
+- http://www.fondriest.com/news/tracking-fracking.htm
 
+## Basic principles of conductivity measurement
 
-**Hydraulic Fracturing and pollution.**
+[To be added -- for now, see references below:]
 
-Fracking http://www.fondriest.com/news/tracking-fracking.htm
-
+- General background here: https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity
+- http://www2.latech.edu/~dehall/LWTL/ENGR121/notes/3_conductivity_sensor_intro.pdf
+- https://www.snowpure.com/docs/FAQ_Conductivity_Thornton.pdf
+- Fondriest : http://www.fondriest.com/environmental-measurements/parameters/water-quality/conductivity-salinity-tds/
+- http://www.analytical-chemistry.uoc.gr/files/items/6/618/agwgimometria_2.pdf
+- http://www.waterboards.ca.gov/water_issues/programs/swamp/docs/cwt/guidance/3130en.pdf
+- https://www.pasco.com/support/technical-support/technote/techIDlookup.cfm?TechNoteID=514
+- http://www1.udel.edu/pchem/C446/Experiments/exp4.pdf
 
 ## Characteristics of a good conductivity sensor
 
+In order to make reasonable conductivity measurements with a probe in solution, various electrochemical properties of the system have led researchers and instrumentation designers to devices that take into account the following considerations:
+
 **Input signal**.
 
-- AC measurement
-- AC frequency
-- Symmetric oscillation 
-- Low voltage
+In order to avoid polarizing the solution being tested, and to minimize the effects of corrosion on the electrodes used in the probe, the input signal into the water should be:
+
+- alternating current
+- with a symmetric oscillation with respect to both electrodes (no net polarization)
+- low voltage, significantly below the electrolysis threshold for water (1.1 Volts).
 
 **Probe design.**
 
-- Non-corrosive / interactive
-- Geometry
-- Two probe vs. four probe
-- Mitigating external fields
-- Toroidal probe design
+The probe geometry and materials greatly affect the quality of the conductivity measurement.  Probes should be:
 
-- https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter
+- Of a material that is less likely to corrode in the solution being tested (stainless steel and platinum are common choices)
+- Of a geometry that minimized 'fringing effects', or stray electric fields that may interact with the rest of the enclosure, or e.g. a beaker of test solution.
+
+**'Four probe' measurements** help to mitigate some of these effects by decoupling the input probes from the measurement circuitry -- the input probes may corrode, but this does not affect the measurement. More details on this approach [here](http://www.globalspec.com/learnmore/sensors_transducers_detectors/analytical_sensors/electrodes_conductivity).
+
+<img src="pics/four_probe.gif" width=600>
+_Source: http://www.globalspec.com/learnmore/sensors_transducers_detectors/analytical_sensors/electrodes_conductivity_
+
+**Toroidal probe designs** avoid the corrosion issue altogether -- these devices are completely separated from the liquid being tested, and interact with it only via EM fields.  More detail [here](http://www.globalspec.com/learnmore/sensors_transducers_detectors/analytical_sensors/electrodes_conductivity). 
+
+<img src="pics/toroid.png" width=600>
+_Source: https://www.ibt.kit.edu/img/content/prozess2_-en_markus_voelker.png_
+
+**Simple DIY approaches**.  The relative advantages of various approaches to probe materials and geometry need to be weighed against the cost and complexity of constructing the probes.  The wide availability and durability of PVC has led to several designs using this material (see, for example, [this one](https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter).  
 
 <img src="pics/pvc_probe.jpg" width=600>
 
-- https://publiclab.org/notes/mathew/02-10-2016/riffle-conductivity-caps-and-other-housing-ideas
+Plastic bottles, with probes attached either to the screw cap, or to rubber stoppers inserted into the bottle opening, have also been explored (for example, [here](https://publiclab.org/notes/mathew/02-10-2016/riffle-conductivity-caps-and-other-housing-ideas)). 
 
+<img src="pics/mathew_screws_a.jpg" width=600>
+
+<img src="pics/rubber_stopper.jpg" width =600>
+
+<img src="pics/rubber_stopper_mud.jpg" width=600>
 
 
 **Temperature compensation.**
+
+<img src="pics/temperature1.jpg">
 
 ## Calibration techniques
 
@@ -73,6 +99,10 @@ Fracking http://www.fondriest.com/news/tracking-fracking.htm
 
 <img src="pics/hick_calibration.png" width=600>
 <img src="pics/hick_calibration_2.png" width=600>
+
+**Conductivity ranges.**
+
+<img src="pics/conductivity_averages.jpg">
 
 ## DIY sensor designs
 
@@ -159,6 +189,8 @@ General:
 
 ## Guides to conductivity
 
+- http://www.globalspec.com/learnmore/sensors_transducers_detectors/analytical_sensors/electrodes_conductivity
+- http://www.tek.com/sites/tek.com/files/media/document/resources/2615%204%20Point%20Probe%20AN.pdf
 - http://www2.latech.edu/~dehall/LWTL/ENGR121/notes/3_conductivity_sensor_intro.pdf
 - https://www.snowpure.com/docs/FAQ_Conductivity_Thornton.pdf
 - Fondriest : http://www.fondriest.com/environmental-measurements/parameters/water-quality/conductivity-salinity-tds/
