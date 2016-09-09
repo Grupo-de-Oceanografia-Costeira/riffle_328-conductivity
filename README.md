@@ -52,7 +52,7 @@ In order to avoid polarizing the solution being tested, and to minimize the effe
 - with a symmetric oscillation with respect to both electrodes (no net polarization)
 - low voltage, significantly below the electrolysis threshold for water (1.1 Volts).
 
-<img src="pics/conductivity_ac.png">
+<img src="pics/conductivity_ac.png" width=400>
 _Source: http://www.sensorex.com/technical-education/_
 
 **Probe design.**
