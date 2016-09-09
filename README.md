@@ -48,7 +48,7 @@ Fracking http://www.fondriest.com/news/tracking-fracking.htm
 
 - https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter
 
-<img src="pics/pvc_probe.jpg" width=300>
+<img src="pics/pvc_probe.jpg" width=600>
 
 - https://publiclab.org/notes/mathew/02-10-2016/riffle-conductivity-caps-and-other-housing-ideas
 
@@ -68,8 +68,8 @@ Fracking http://www.fondriest.com/news/tracking-fracking.htm
 - Soda
 - Salt and distilled water
 
-<img src="pics/hick_calibration.png" width=300>
-<img src="pics/hick_calibration_2.png" width=300>
+<img src="pics/hick_calibration.png" width=600>
+<img src="pics/hick_calibration_2.png" width=600>
 
 ## DIY sensor designs
 
@@ -83,7 +83,7 @@ Design.
 https://publiclab.org/wiki/coqui
 https://publiclab.org/notes/donblair/09-30-2014/coqui-bbv1-0
 
-<img src="coqui.png" width=300>
+<img src="coqui.png" width=600>
 
 Problems:
 
@@ -94,16 +94,16 @@ Problems:
 - https://publiclab.org/notes/JSummers/11-21-2013/conductivity-meter
 - https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter
 
-<img src="pics/hickman.pngwidth" width=300>
+<img src="pics/hickman.pngwidth" width=600>
 
-<img src="pics/hickman_labeled.png" width=300>
+<img src="pics/hickman_labeled.png" width=600>
 
 **Sparky's Widgets.**
 
 - http://hackaday.com/2014/11/10/accurately-measuring-electrical-conductivity/
 - https://github.com/SparkysWidgets/MinieCHW
 
-<img src="pics/sparky.pngwidth" width=300>
+<img src="pics/sparky.pngwidth" width=600>
 
 **openCTD.**
 
@@ -113,13 +113,13 @@ http://oceanographyforeveryone.com/
 
 [Atlas Scientific conductivity circuit](http://www.atlas-scientific.com/product_pages/circuits/ezo_ec.html)
 
-<img src="pics/atlas.jpg" width=300>
+<img src="pics/atlas.jpg" width=600>
 
 **Vintage.**
 
 http://www.ullasmann.eu/Doc/Salt_Concentration_Meter.pdf
 
-<img src="pics/vintage_op_amp.png" width=300>
+<img src="pics/vintage_op_amp.png" width=600>
 
 ## Research directions
 
