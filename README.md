@@ -97,7 +97,7 @@ Problems:
 - http://hackaday.com/2014/11/10/accurately-measuring-electrical-conductivity/
 - https://github.com/SparkysWidgets/MinieCHW
 
-<img src="pics/sparkys.png">
+<img src="pics/sparky.png">
 
 **openCTD.**
 
@@ -105,9 +105,13 @@ openCTD project
 https://github.com/OceanographyforEveryone/OpenCTD
 http://oceanographyforeveryone.com/
 
+<img src="pics/atlas.jpg">
+
 **Vintage.**
 
 http://www.ullasmann.eu/Doc/Salt_Concentration_Meter.pdf
+
+<img src="pics/vintage_op_amp.png">
 
 ## Research directions
 
