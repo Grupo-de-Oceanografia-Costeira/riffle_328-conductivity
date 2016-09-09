@@ -80,6 +80,10 @@ Ref: RIffle design, which includes conductivity sensor.
 **Coqui.**  
 
 Design.
+https://publiclab.org/wiki/coqui
+https://publiclab.org/notes/donblair/09-30-2014/coqui-bbv1-0
+
+<img src="coqui.png">
 
 Problems:
 
