@@ -84,8 +84,18 @@ Plastic bottles, with probes attached either to the screw cap, or to rubber stop
 
 **Temperature compensation.**
 
+Conductivity is affected by temperature:
+
 <img src="pics/temperature1.jpg">
 
+In order to compare conductivity across liquids at different temperatures, the concept of 'specific conductivity' is used -- that is, the conductivity of the liquid 'if it were at 25 Celsius'.  The temperature dependence of conductivity depends on the particular mixture of ions in the solution, and so the correction parameters and equations used for shifting the measured conductivity to the expected value at 25 C need to chosen appropriately for the expected chemical makeup of the solution.  For more information, see 'Specific Conductance', [here](http://www.fondriest.com/environmental-measurements/parameters/water-quality/conductivity-salinity-tds/#cond3), and an extended discussion [here](http://www.reagecon.com/pdf/technicalpapers/Effect_of_Temperature_TSP-07_Issue3.pdf). 
+
+Often, the simplest, linear correction for the effect of temperature on conductivity is used:
+
+<img src="pics/linear_correction.png" >
+
+Here, **t** is the temperature of the sample, **C_25** is the calculated conductivity at 25 C, **C_t** is the measured conductivity at temperature **t**, and **alpha** is a temperature coefficient chosen to be appropriate for the expected ion content of the solution being tested.  (For dilute solutions of most salts, alpha = 0.02 is a fairly good approximation; better values can be chosen if more information is known about the content of the solution.)
+  
 ## Calibration techniques
 
 **Commercial standard solutions.** 
@@ -190,6 +200,7 @@ General:
 
 ## Guides to conductivity
 
+- http://www.ott.com/blog/2015/04/measuring-conductivity-of-water-temperature-compensation-and-derivatives/
 - http://www.globalspec.com/learnmore/sensors_transducers_detectors/analytical_sensors/electrodes_conductivity
 - http://www.tek.com/sites/tek.com/files/media/document/resources/2615%204%20Point%20Probe%20AN.pdf
 - http://www2.latech.edu/~dehall/LWTL/ENGR121/notes/3_conductivity_sensor_intro.pdf
