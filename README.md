@@ -7,7 +7,7 @@
 - Mark Green and Road Salt
 - [LoVoTECS](http://jupiter.plymouth.edu/~mbgreen/Mark_B._Green/LoVoTECS.html)
 
-<img src="lovotechs.jpg" width=600>
+<img src="pics/lovotechs.jpg" width=600>
 
 - http://des.nh.gov/organization/divisions/water/wmb/was/salt-reduction-initiative/impacts.htm
 - http://www.boston.com/news/local-news/2015/01/16/road-salt-where-does-it-come-from-where-does-it-go
