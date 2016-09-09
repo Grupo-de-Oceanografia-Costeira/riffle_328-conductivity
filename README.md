@@ -83,7 +83,7 @@ Design.
 https://publiclab.org/wiki/coqui
 https://publiclab.org/notes/donblair/09-30-2014/coqui-bbv1-0
 
-<img src="coqui.png" width=600>
+<img src="pics/coqui.png" width=600>
 
 Problems:
 
@@ -94,7 +94,7 @@ Problems:
 - https://publiclab.org/notes/JSummers/11-21-2013/conductivity-meter
 - https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter
 
-<img src="pics/hickman.pngwidth" width=600>
+<img src="pics/hickman.png" width=600>
 
 <img src="pics/hickman_labeled.png" width=600>
 
