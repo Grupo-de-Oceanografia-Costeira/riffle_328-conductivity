@@ -7,6 +7,7 @@ Conductivity is an important water quality parameter, and is widely used to asse
 Some of the applications that have inspired this work include:
 
 **Road Salt and the LovoTech network**. Mark Green of Plymouth State initially proposed the idea of an open source design for a conductivity data logger.  His [LoVoTECHS](http://jupiter.plymouth.edu/~mbgreen/Mark_B._Green/LoVoTECS.html) network in New Hampshire already consisted of many volunteer stewards of conductivity monitors throughout a watershed, with the idea of assessing the impact and dynamics of road salt within the local ecosystem. 
+
 <img src="pics/lovotechs.png" width=300>
 
 More background reading on road salt:
