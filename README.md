@@ -52,6 +52,9 @@ In order to avoid polarizing the solution being tested, and to minimize the effe
 - with a symmetric oscillation with respect to both electrodes (no net polarization)
 - low voltage, significantly below the electrolysis threshold for water (1.1 Volts).
 
+<img src="pics/conductivity_ac.png">
+_Source: http://www.sensorex.com/technical-education/_
+
 **Probe design.**
 
 The probe geometry and materials greatly affect the quality of the conductivity measurement.  Probes should be:
