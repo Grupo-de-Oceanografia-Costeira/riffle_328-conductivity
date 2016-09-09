@@ -151,7 +151,7 @@ Problems:
 - http://hackaday.com/2014/11/10/accurately-measuring-electrical-conductivity/
 - https://github.com/SparkysWidgets/MinieCHW
 
-<img src="pics/sparky.pngwidth" width=600>
+<img src="pics/sparky.png" width=600>
 
 **openCTD.**
 
