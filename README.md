@@ -1,6 +1,6 @@
-# Conductivity sensor prototypes
+# DIY conductivity sensor designs
 
-## Motivation and applications
+## Background
 
 **Road Salt and the LovoTech network**. 
 
@@ -46,6 +46,14 @@ Fracking http://www.fondriest.com/news/tracking-fracking.htm
 - Mitigating external fields
 - Toroidal probe design
 
+- https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter
+
+<img src="pics/pvc_probe.jpg">
+
+- https://publiclab.org/notes/mathew/02-10-2016/riffle-conductivity-caps-and-other-housing-ideas
+
+
+
 **Temperature compensation.**
 
 ## Calibration techniques
@@ -60,7 +68,10 @@ Fracking http://www.fondriest.com/news/tracking-fracking.htm
 - Soda
 - Salt and distilled water
 
-## DIY Sensor Designs
+<img src="pics/hick_calibration.png">
+<img src="pics/hick_calibration_2.png">
+
+## DIY sensor designs
 
 **Ben Gamari.**
 
@@ -79,10 +90,14 @@ Problems:
 - https://publiclab.org/notes/JSummers/11-21-2013/conductivity-meter
 - https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter
 
+<img src="pics/hickman.png">
+
 **Sparky's Widgets.**
 
 - http://hackaday.com/2014/11/10/accurately-measuring-electrical-conductivity/
 - https://github.com/SparkysWidgets/MinieCHW
+
+<img src="pics/sparkys.png">
 
 **openCTD.**
 
@@ -93,6 +108,8 @@ http://oceanographyforeveryone.com/
 **Vintage.**
 
 http://www.ullasmann.eu/Doc/Salt_Concentration_Meter.pdf
+
+## Research directions
 
 
 ## Research Notes on Public Lab
