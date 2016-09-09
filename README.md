@@ -105,6 +105,8 @@ openCTD project
 https://github.com/OceanographyforEveryone/OpenCTD
 http://oceanographyforeveryone.com/
 
+[Atlas Scientific conductivity circuit](http://www.atlas-scientific.com/product_pages/circuits/ezo_ec.html)
+
 <img src="pics/atlas.jpg">
 
 **Vintage.**
