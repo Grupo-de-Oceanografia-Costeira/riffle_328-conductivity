@@ -63,6 +63,12 @@ The probe geometry and materials greatly affect the quality of the conductivity 
 - Of a material that is less likely to corrode in the solution being tested (stainless steel and platinum are common choices)
 - Of a geometry that minimized 'fringing effects', or stray electric fields that may interact with the rest of the enclosure, or e.g. a beaker of test solution.
 
+**Fringing effects in two probe designs**.  If two probes consisting of 'point source' geometries are used (screws or bolts with only a small, round nub of metal exposed), relatively larger 'fringing fields' are likely to result -- meaning that the electrical measurement being made will be affected by the presence of nearby objects (a beaker wall, for example).
+
+<img src="pics/fields.gif">
+
+This effect might not be problematic in the field (in a river, say), but can render calibration on a desktop difficult.
+
 **'Four probe' measurements** help to mitigate some of these effects by decoupling the input probes from the measurement circuitry -- the input probes may corrode, but this does not affect the measurement. More details on this approach [here](http://www.globalspec.com/learnmore/sensors_transducers_detectors/analytical_sensors/electrodes_conductivity).
 
 <img src="pics/four_probe.gif" width=600>
