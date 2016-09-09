@@ -5,7 +5,10 @@
 **Road Salt and the LovoTech network**. 
 
 - Mark Green and Road Salt
-- Lovotech network
+- [LoVoTECS](http://jupiter.plymouth.edu/~mbgreen/Mark_B._Green/LoVoTECS.html)
+
+<img src="lovotechs.jpg" width=600>
+
 - http://des.nh.gov/organization/divisions/water/wmb/was/salt-reduction-initiative/impacts.htm
 - http://www.boston.com/news/local-news/2015/01/16/road-salt-where-does-it-come-from-where-does-it-go
 - http://news.nationalgeographic.com/news/2014/02/140212-road-salt-shortages-melting-ice-snow-science/
