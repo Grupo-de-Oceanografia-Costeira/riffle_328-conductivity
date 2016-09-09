@@ -81,15 +81,15 @@ _Source: https://www.ibt.kit.edu/img/content/prozess2_-en_markus_voelker.png_
 
 **Simple DIY approaches**.  The relative advantages of various approaches to probe materials and geometry need to be weighed against the cost and complexity of constructing the probes.  The wide availability and durability of PVC has led to several designs using this material (see, for example, [this one](https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter).  
 
-<img src="pics/pvc_probe.jpg" width=600>
+<img src="pics/pvc_probe.jpg" width=300>
 
 Plastic bottles, with probes attached either to the screw cap, or to rubber stoppers inserted into the bottle opening, have also been explored (for example, [here](https://publiclab.org/notes/mathew/02-10-2016/riffle-conductivity-caps-and-other-housing-ideas)). 
 
-<img src="pics/mathew_screws_a.jpg" width=600>
+<img src="pics/mathew_screws_a.jpg" width=300>
 
-<img src="pics/rubber_stopper.jpg" width =600>
+<img src="pics/rubber_stopper.jpg" width=300>
 
-<img src="pics/rubber_stopper_mud.jpg" width=600>
+<img src="pics/rubber_stopper_mud.jpg" width=300>
 
 
 **Temperature compensation.**
@@ -118,8 +118,8 @@ Here, **t** is the temperature of the sample, **C_25** is the calculated conduct
 - Soda
 - Salt and distilled water
 
-<img src="pics/hick_calibration.png" width=600>
-<img src="pics/hick_calibration_2.png" width=600>
+<img src="pics/hick_calibration.png" width=300>
+<img src="pics/hick_calibration_2.png" width=300>
 
 **Conductivity ranges.**
 
@@ -148,16 +148,16 @@ Problems:
 - https://publiclab.org/notes/JSummers/11-21-2013/conductivity-meter
 - https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter
 
-<img src="pics/hickman.png" width=600>
+<img src="pics/hickman.png" width=300>
 
-<img src="pics/hickman_labeled.png" width=600>
+<img src="pics/hickman_labeled.png" width=300>
 
 **Sparky's Widgets.**
 
 - http://hackaday.com/2014/11/10/accurately-measuring-electrical-conductivity/
 - https://github.com/SparkysWidgets/MinieCHW
 
-<img src="pics/sparky.png" width=600>
+<img src="pics/sparky.png" width=300>
 
 **openCTD.**
 
@@ -167,13 +167,13 @@ http://oceanographyforeveryone.com/
 
 [Atlas Scientific conductivity circuit](http://www.atlas-scientific.com/product_pages/circuits/ezo_ec.html)
 
-<img src="pics/atlas.jpg" width=600>
+<img src="pics/atlas.jpg" width=300>
 
 **Vintage.**
 
 http://www.ullasmann.eu/Doc/Salt_Concentration_Meter.pdf
 
-<img src="pics/vintage_op_amp.png" width=600>
+<img src="pics/vintage_op_amp.png" width=300>
 
 ## Research directions
 
