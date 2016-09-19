@@ -42,6 +42,8 @@ More background reading on road salt:
 
 ## Characteristics of a good conductivity sensor
 
+
+
 In order to make reasonable conductivity measurements with a probe in solution, various electrochemical properties of the system have led researchers and instrumentation designers to devices that take into account the following considerations:
 
 **Input signal**.
@@ -58,10 +60,10 @@ _Source: http://www.sensorex.com/technical-education/_
 
 **Probe design.**
 
-The probe geometry and materials greatly affect the quality of the conductivity measurement.  Probes should be:
+The probe geometry and materials greatly affect the quality of the conductivity measurement.  Probes should:
 
-- Of a material that is less likely to corrode in the solution being tested (stainless steel and platinum are common choices)
-- Of a geometry that minimized 'fringing effects', or stray electric fields that may interact with the rest of the enclosure, or e.g. a beaker of test solution.
+- Use an electrode material that is less likely to corrode in the solution being tested (stainless steel and platinum are common choices)
+- Be arranged in a geometry that minimized 'fringing effects', or stray electric fields that may interact with the rest of the enclosure, or e.g. a beaker of test solution.  There are indications in the literature that the fringing problem is **worst** when the individual electrode area (the exposed metal of the electrode) and the spacing between the electrodes is about equal.
 
 **Fringing effects in two probe designs**.  If two probes consisting of 'point source' geometries are used (screws or bolts with only a small, round nub of metal exposed), relatively larger 'fringing fields' are likely to result -- meaning that the electrical measurement being made will be affected by the presence of nearby objects (a beaker wall, for example).
 
@@ -126,6 +128,13 @@ Here, **t** is the temperature of the sample, **C_25** is the calculated conduct
 <img src="pics/conductivity_averages.jpg">
 
 ## DIY sensor designs
+
+[TODO: 
+
+- wein bridge oscillator vs. 555 vs. square wave from microcontroller vs sine wave
+- describe utility of op-amps
+- describe various ways of measuring the resistance -- bridge circuits vs. op-amp voltage divider 
+]
 
 **Ben Gamari.**
 
